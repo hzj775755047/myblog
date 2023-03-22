@@ -6,7 +6,7 @@ export default{
         siteTitle:'hzj',
         logo:"/logo.jpg",
         nav:[
-            { text:"Guide",link:"/guide/" },
+            { text:"经验",link:"/exp/index" },
             { text:"juejin",link:"https://juejin.cn/user/3386940253550120"},
             {
                 text:"Drop Menu",
@@ -29,9 +29,9 @@ export default{
             { icon:'github',link:'https://github.com/hzj775755047'}
         ],
         sidebar:{
-            "/guide/" : [
+            "/exp/" : [
                 {
-                    text:'组件库源码实现',
+                    text:"掌握的知识",
                     collapsible:true,
                     collapsed:true,
                     items:[
@@ -39,13 +39,22 @@ export default{
                             text:'组件库环境搭建',
                             link:"/articles/组件库环境搭建"
                         },
-                        { text:'gulp的使用',link:'/articles/gulp的使用'}
+                        { text:'单点登录的cookie校验',link:'/exp/index'}
                     ]
                 },
                 {
-                    text:"vue教程",
-                    link:'/articles/pina和vuex'
-                }
+                    text:'工作经验',
+                    collapsible:true,
+                    collapsed:true,
+                    items:[
+                        {
+                            text:'组件库环境搭建',
+                            link:"/articles/组件库环境搭建"
+                        },
+                        { text:'单点登录的cookie校验',link:'/exp/index'}
+                    ]
+                },
+                
             ]
         }
 
