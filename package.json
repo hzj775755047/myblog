@@ -1,0 +1,19 @@
+{
+  "name": "hzjblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "deploy": "bash deploy.sh",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bash": "^0.0.1",
+    "vitepress": "^1.0.0-alpha.61"
+  }
+}
